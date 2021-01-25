@@ -20,7 +20,7 @@ const imgGalleryRef = document.querySelector('#gallery');
 
 const createGallery = ({ url, alt }) => {
   return `<li class="images">
-  <img class='gallery' src="${url}" alt="${alt}" width="200" height="100"/></li>`;
+  <img class='gallery' src="${url}" alt="${alt}" width="450" height="380"/></li>`;
 };
 
 const createListRef = images.map(createGallery).join('');
